@@ -1,4 +1,4 @@
-package com.ryder.leetcodepractice.ValidAnagram_0242
+package com.ryder.leetcodepractice.array._0242_ValidAnagram
 
 class Solution {
     fun isAnagram(s: String, t: String): Boolean {

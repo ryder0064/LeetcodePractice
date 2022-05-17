@@ -1,4 +1,4 @@
-package com.ryder.leetcodepractice.ContainsDuplicate_0217
+package com.ryder.leetcodepractice.array._0217_ContainsDuplicate
 
 class Solution {
     fun containsDuplicate(nums: IntArray): Boolean {

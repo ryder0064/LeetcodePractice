@@ -1,4 +1,4 @@
-package com.ryder.leetcodepractice.TwoSum_0001
+package com.ryder.leetcodepractice.array._0001_TwoSum
 
 class Solution {
     fun twoSum(nums: IntArray, target: Int): IntArray? {

@@ -1,4 +1,4 @@
-package com.ryder.leetcodepractice.MergeIntervals_0056
+package com.ryder.leetcodepractice.array._0056_MergeIntervals
 
 import java.util.*
 

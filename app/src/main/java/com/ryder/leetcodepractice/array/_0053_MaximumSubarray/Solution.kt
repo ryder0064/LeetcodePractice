@@ -1,4 +1,4 @@
-package com.ryder.leetcodepractice.MaximumSubarray_0053
+package com.ryder.leetcodepractice.array._0053_MaximumSubarray
 
 class Solution {
     //1,-3,4,-1,2,
@@ -16,7 +16,7 @@ class Solution {
 //        return res
 //    }
 
-    //1,-3,4,-1,2,
+    //3,-4,2,-3,1,
     fun maxSubArray(nums: IntArray): Int {
         if (nums.isEmpty()) {
             return 0

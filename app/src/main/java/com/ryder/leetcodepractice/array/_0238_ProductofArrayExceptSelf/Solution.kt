@@ -1,4 +1,4 @@
-package com.ryder.leetcodepractice.ProductofArrayExceptSelf_0238
+package com.ryder.leetcodepractice.array._0238_ProductofArrayExceptSelf
 
 internal class Solution {
     fun productExceptSelf(nums: IntArray): IntArray {

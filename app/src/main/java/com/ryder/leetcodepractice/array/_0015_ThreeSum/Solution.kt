@@ -1,10 +1,10 @@
-package com.ryder.leetcodepractice.ThreeSum_0015
+package com.ryder.leetcodepractice.array._0015_ThreeSum
 
 import java.util.*
 
 class Solution {
     fun threeSum(nums: IntArray): List<List<Int?>?> {
-        val result: MutableList<List<Int?>?> = mutableListOf()
+        val result: MutableList<List<Int?>?> = arrayListOf()
         val n: Int = nums.size
         if (n < 3) {
             return result

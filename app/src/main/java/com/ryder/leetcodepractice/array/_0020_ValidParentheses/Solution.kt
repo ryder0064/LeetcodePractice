@@ -1,4 +1,4 @@
-package com.ryder.leetcodepractice.ValidParentheses_0020
+package com.ryder.leetcodepractice.array._0020_ValidParentheses
 
 import java.util.*
 
@@ -7,8 +7,8 @@ class Solution {
         val chars = s.toCharArray()
         val q: Deque<Char> = ArrayDeque()
         for (ch in chars) {
-            val left = ch == '(' || ch == '[' || ch == '{'
-            if (left) q.push(ch) else if (q.isEmpty() || !match(q.pop(), ch)) return false
+            val isLeft = ch == '(' || ch == '[' || ch == '{'
+            if (isLeft) q.push(ch) else if (q.isEmpty() || !match(q.pop(), ch)) return false
         }
         return q.isEmpty()
     }
